@@ -1,0 +1,46 @@
+/* Reset básico */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Hero */
+
+.hero-section {
+    background-color: #f8f9fa;
+}
+
+/* Imagen sección sobre mí */
+
+.about-image {
+    height: 300px;
+    background-color: #ddd;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+}
+
+/* Cards */
+
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Footer */
+
+footer {
+    margin-top: auto;
+}
