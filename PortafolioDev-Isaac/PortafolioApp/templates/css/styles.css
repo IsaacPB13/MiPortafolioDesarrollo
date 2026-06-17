@@ -18,6 +18,12 @@ html {
 
 /* Imagen sección sobre mí */
 
+#fotoPersonal {
+    width: 400px;
+    height: 500px;
+    padding: auto;
+}
+
 .about-image {
     height: 300px;
     background-color: #ddd;
